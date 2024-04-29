@@ -7,6 +7,8 @@ load(file = "../beta_x_dy.RData")
 load(file = "../beta_x_end.RData")
 load(file = "../beta_gc.RData")
 
+dir.create("final_plots")
+
 # number of nodes
 sample_sizes<-c(5,15,45)
 
