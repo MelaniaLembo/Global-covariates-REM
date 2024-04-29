@@ -1,7 +1,7 @@
 # Relational event models with global covariates
 
 This repository contains the code used for the simulation study and empirical application of the paper 
-_Relational event models with global covariates_.
+_Relational event models with global covariates_. It also includes code for anything included in the Supplementary Materials of this paper.
 
 Traditional inferential techniques for Relational Event Models,
 involving Cox’s partial likelihood, can estimate the effects of covariates that are
