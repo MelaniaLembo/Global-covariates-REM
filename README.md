@@ -13,6 +13,7 @@ addresses this challenge with the use of nested case-control sampling on a time-
 degenerate logistic generalized additive model from which we are able to recover
 effects of all kinds of covariates, including global ones.
 
-__ DIRECTORY STRUCTURE __
+__DIRECTORY STRUCTURE__
+
 
 
