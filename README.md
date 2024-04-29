@@ -17,6 +17,6 @@ effects of all kinds of covariates, including global ones.
 __DIRECTORY STRUCTURE__
 
 - simulation_study: contains scripts for the data simulation, model fitting and plotting for the simulation study in Section 4 of the paper. 
-- bike_data_analysis: contains the scripts regarding data pre-processing, model fitting and plotting for the analysis of bike shares in Washington D.C presented in Section 5 of the paper
+- bike_data_analysis: contains the scripts regarding data pre-processing, model fitting and plotting for the analysis of bike shares in Washington D.C presented in Section 5 of the paper.
 - bike_data_simulation: contains scripts for a simulated realistic example in the context of bike shares, included in Section 1.5 of the Supplementary materials of this paper.
 
