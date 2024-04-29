@@ -7,7 +7,7 @@ load(file = "../beta_x_dy.RData")
 load(file = "../beta_x_end.RData")
 load(file = "../beta_gc.RData")
 
-
+dir.create("final_plots")
 # number of events 
 sample_sizes<-c(1000,3000,9000)
 
