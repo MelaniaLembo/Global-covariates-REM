@@ -13,9 +13,10 @@ addresses this challenge with the use of nested case-control sampling on a time-
 degenerate logistic generalized additive model from which we are able to recover
 effects of all kinds of covariates, including global ones.
 
+
 __DIRECTORY STRUCTURE__
 
-simulation_study: contains scripts for the data simulation, model fitting and plotting for the simulation study in Section 4 of the paper. 
-bike_data_analysis: contains the scripts regarding data pre-processing, model fitting and plotting for the analysis of bike shares in Washington D.C presented in Section 5 of the paper
-bike_data_sim: contains scripts for a simulated realistic example in the context of bike shares (included in the Supplementary materials of this paper).
+-simulation_study: contains scripts for the data simulation, model fitting and plotting for the simulation study in Section 4 of the paper. 
+-bike_data_analysis: contains the scripts regarding data pre-processing, model fitting and plotting for the analysis of bike shares in Washington D.C presented in Section 5 of the paper
+-bike_data_sim: contains scripts for a simulated realistic example in the context of bike shares (included in the Supplementary materials of this paper).
 
