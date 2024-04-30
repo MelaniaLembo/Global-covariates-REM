@@ -5,7 +5,7 @@ and simulated relational events between them over a period of two days according
 
 __DIRECTORY STRUCTURE__
 
-- station_info.RData: contains info on the 20 bike station used to simulate the data.
+- station_info.RData: contains info on the 20 bike stations used to simulate the data.
 - bike_data.sim.R: simulates the relational events between the stations in "station_info.RData" (100 replications) and performs shifting and nested case-sampling on the shifted process. It then fits the GAM model and, after having corrected for the identifiability constraint using the Breslow estimator, it plots the estimated effects.
 
 __DIRECTORY USAGE__
