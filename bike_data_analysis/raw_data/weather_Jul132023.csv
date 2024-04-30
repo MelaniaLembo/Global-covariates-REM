@@ -1,0 +1,26 @@
+Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition
+12:52 AM,26 °C,19 °C,66 %,SSW,9 km/h,0 km/h,"1,012.39 hPa",0.0 mm,Mostly Cloudy
+1:52 AM,26 °C,19 °C,68 %,S,11 km/h,0 km/h,"1,012.05 hPa",0.0 mm,Mostly Cloudy
+2:52 AM,26 °C,19 °C,68 %,S,11 km/h,0 km/h,"1,011.71 hPa",0.0 mm,Mostly Cloudy
+3:52 AM,25 °C,21 °C,76 %,S,9 km/h,0 km/h,"1,011.71 hPa",0.0 mm,Mostly Cloudy
+4:52 AM,24 °C,19 °C,74 %,SSW,9 km/h,0 km/h,"1,011.71 hPa",0.0 mm,Partly Cloudy
+5:52 AM,24 °C,21 °C,79 %,SE,11 km/h,0 km/h,"1,011.37 hPa",0.0 mm,Mostly Cloudy
+6:52 AM,25 °C,21 °C,76 %,S,19 km/h,0 km/h,"1,011.71 hPa",0.0 mm,Fair
+7:52 AM,26 °C,21 °C,74 %,S,15 km/h,0 km/h,"1,011.71 hPa",0.0 mm,Fair
+8:52 AM,28 °C,21 °C,67 %,SSW,17 km/h,0 km/h,"1,011.71 hPa",0.0 mm,Fair
+9:52 AM,28 °C,23 °C,72 %,S,17 km/h,0 km/h,"1,011.37 hPa",0.0 mm,Partly Cloudy
+10:52 AM,30 °C,22 °C,63 %,S,19 km/h,0 km/h,"1,011.03 hPa",0.0 mm,Partly Cloudy
+11:52 AM,31 °C,22 °C,57 %,SSE,24 km/h,0 km/h,"1,010.36 hPa",0.0 mm,Fair
+12:39 PM,32 °C,21 °C,52 %,S,20 km/h,0 km/h,"1,010.36 hPa",0.0 mm,Partly Cloudy
+12:52 PM,33 °C,20 °C,47 %,S,24 km/h,0 km/h,"1,010.02 hPa",0.0 mm,Partly Cloudy
+1:52 PM,34 °C,18 °C,39 %,SW,24 km/h,0 km/h,"1,009.68 hPa",0.0 mm,Mostly Cloudy
+2:52 PM,33 °C,19 °C,45 %,SSW,20 km/h,35 km/h,"1,009.34 hPa",0.0 mm,Mostly Cloudy
+3:52 PM,34 °C,21 °C,47 %,S,17 km/h,0 km/h,"1,008.67 hPa",0.0 mm,Mostly Cloudy
+4:52 PM,33 °C,22 °C,50 %,S,26 km/h,0 km/h,"1,008.67 hPa",0.0 mm,Mostly Cloudy
+5:52 PM,33 °C,20 °C,45 %,S,30 km/h,43 km/h,"1,008.67 hPa",0.0 mm,Mostly Cloudy
+6:52 PM,33 °C,21 °C,50 %,SSW,20 km/h,37 km/h,"1,008.67 hPa",0.0 mm,Partly Cloudy
+7:52 PM,32 °C,22 °C,55 %,SSW,24 km/h,0 km/h,"1,009.00 hPa",0.0 mm,Mostly Cloudy
+8:52 PM,31 °C,22 °C,57 %,SSW,19 km/h,0 km/h,"1,009.34 hPa",0.0 mm,Mostly Cloudy
+9:52 PM,31 °C,22 °C,59 %,SW,26 km/h,39 km/h,"1,010.02 hPa",0.0 mm,Mostly Cloudy
+10:52 PM,30 °C,21 °C,59 %,SW,28 km/h,0 km/h,"1,010.02 hPa",0.0 mm,Cloudy
+11:52 PM,28 °C,21 °C,63 %,SW,24 km/h,37 km/h,"1,010.02 hPa",0.0 mm,Cloudy

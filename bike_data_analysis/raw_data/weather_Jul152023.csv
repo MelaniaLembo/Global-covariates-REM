@@ -1,0 +1,33 @@
+Time,Temperature,Dew Point,Humidity,Wind,Wind Speed,Wind Gust,Pressure,Precip.,Condition
+12:52 AM,23 °C,21 °C,87 %,W,6 km/h,0 km/h,"1,013.07 hPa",0.0 mm,Partly Cloudy
+1:52 AM,23 °C,22 °C,91 %,CALM,0 km/h,0 km/h,"1,012.73 hPa",0.0 mm,Partly Cloudy
+2:52 AM,23 °C,22 °C,93 %,CALM,0 km/h,0 km/h,"1,012.05 hPa",0.0 mm,Partly Cloudy
+3:47 AM,23 °C,22 °C,94 %,N,9 km/h,0 km/h,"1,012.05 hPa",0.0 mm,Partly Cloudy
+3:52 AM,23 °C,22 °C,91 %,N,7 km/h,0 km/h,"1,012.05 hPa",0.0 mm,Partly Cloudy
+4:52 AM,23 °C,22 °C,91 %,ENE,7 km/h,0 km/h,"1,012.39 hPa",0.0 mm,Partly Cloudy
+5:07 AM,23 °C,22 °C,91 %,NE,7 km/h,0 km/h,"1,012.39 hPa",0.0 mm,Mostly Cloudy
+5:52 AM,23 °C,22 °C,91 %,CALM,0 km/h,0 km/h,"1,012.39 hPa",0.0 mm,Cloudy
+6:19 AM,23 °C,22 °C,91 %,SE,6 km/h,0 km/h,"1,012.73 hPa",0.0 mm,Mostly Cloudy
+6:52 AM,24 °C,22 °C,90 %,SE,6 km/h,0 km/h,"1,013.07 hPa",0.0 mm,Mostly Cloudy
+7:25 AM,24 °C,22 °C,87 %,CALM,0 km/h,0 km/h,"1,013.40 hPa",0.0 mm,Mostly Cloudy
+7:52 AM,25 °C,23 °C,88 %,E,6 km/h,0 km/h,"1,013.40 hPa",0.0 mm,Mostly Cloudy
+8:52 AM,26 °C,23 °C,87 %,S,7 km/h,0 km/h,"1,013.74 hPa",0.0 mm,Mostly Cloudy
+9:52 AM,26 °C,24 °C,88 %,S,13 km/h,0 km/h,"1,014.08 hPa",0.0 mm,Cloudy
+10:52 AM,27 °C,24 °C,87 %,S,9 km/h,0 km/h,"1,013.74 hPa",0.0 mm,Cloudy
+11:52 AM,27 °C,24 °C,85 %,S,11 km/h,0 km/h,"1,013.74 hPa",0.0 mm,Cloudy
+12:52 PM,28 °C,24 °C,79 %,S,9 km/h,0 km/h,"1,013.40 hPa",0.0 mm,Cloudy
+1:18 PM,29 °C,24 °C,76 %,S,9 km/h,0 km/h,"1,013.07 hPa",0.0 mm,Mostly Cloudy
+1:52 PM,30 °C,24 °C,72 %,S,11 km/h,0 km/h,"1,012.73 hPa",0.0 mm,Mostly Cloudy
+1:59 PM,31 °C,25 °C,72 %,S,15 km/h,0 km/h,"1,012.73 hPa",0.0 mm,Mostly Cloudy
+2:52 PM,31 °C,25 °C,72 %,S,19 km/h,0 km/h,"1,012.05 hPa",0.0 mm,Mostly Cloudy
+3:52 PM,31 °C,24 °C,67 %,S,19 km/h,0 km/h,"1,011.37 hPa",0.0 mm,Mostly Cloudy
+4:52 PM,31 °C,24 °C,69 %,S,15 km/h,0 km/h,"1,010.70 hPa",0.0 mm,Mostly Cloudy
+5:52 PM,31 °C,24 °C,69 %,S,17 km/h,0 km/h,"1,010.36 hPa",0.0 mm,Mostly Cloudy
+6:52 PM,30 °C,24 °C,72 %,S,13 km/h,0 km/h,"1,010.36 hPa",0.0 mm,Mostly Cloudy
+7:52 PM,30 °C,25 °C,74 %,S,11 km/h,0 km/h,"1,010.36 hPa",0.0 mm,Mostly Cloudy
+8:21 PM,30 °C,25 °C,74 %,S,11 km/h,0 km/h,"1,010.36 hPa",0.0 mm,Thunder in the Vicinity
+8:36 PM,30 °C,25 °C,74 %,S,15 km/h,0 km/h,"1,010.36 hPa",0.0 mm,Mostly Cloudy
+8:52 PM,29 °C,24 °C,74 %,S,31 km/h,43 km/h,"1,010.36 hPa",0.0 mm,Mostly Cloudy
+9:52 PM,26 °C,21 °C,74 %,S,13 km/h,0 km/h,"1,010.70 hPa",0.0 mm,Light Rain
+10:52 PM,25 °C,22 °C,84 %,WSW,17 km/h,0 km/h,"1,011.37 hPa",0.5 mm,Rain
+11:52 PM,24 °C,22 °C,87 %,CALM,0 km/h,0 km/h,"1,010.70 hPa",0.8 mm,Cloudy
