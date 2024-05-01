@@ -9,7 +9,7 @@ using the R package osrm.
 
 __DIRECTORY STRUCTURE__
 
-- raw_data: contains the weather raw data
+- raw_data: contains the weather raw data.
 - data_pre_processing:  contains the scripts to download bike sharing data, perform all the pre-processing steps described in the Supplementary material and compute distances between bike statons.
 - events_ncc_gam_ncc_resbh: contains the scripts to compute the endogenous variables, perform nested case-control sampling on the shifted process and the same sampling scheme on the original process (the latter used to compute the Breslow estimator to correct for the identifiability constraint).
 - gam_resbh_estimation: contains the scripts to fit the GAM model, compute the Breslow estimator for the identifiability correction and plotting code to obtain the plots.
