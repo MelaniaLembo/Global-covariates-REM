@@ -10,4 +10,4 @@ __DIRECTORY STRUCTURE__
 
 __DIRECTORY USAGE__
 
-Run "bike_data.sim.R".
+Run "bike_data.sim.R" (execution time approx. 15 mins.).
