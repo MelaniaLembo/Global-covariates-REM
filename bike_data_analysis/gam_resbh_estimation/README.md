@@ -9,4 +9,4 @@ __DIRECTORY STRUCTURE__
 
 __DIRECTORY USAGE__
 
-Run "cluster_gam_fit_resbh.R" to fit the GAM model and estimate the effects. Execute "plotting.R" to get the plots.
+Run "cluster_gam_fit_resbh.R" to fit the GAM model and estimate the effects (execution time is approx. 50 mins). Execute "plotting.R" to get the plots.
