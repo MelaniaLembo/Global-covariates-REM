@@ -5,11 +5,11 @@ set.seed(26)
 
 # inverse cumulative distribution function for a weibull
 # distributed X with scale = 1 and some shape parameter
-# conditioned onf X > t0
+# conditioned on X > t0.
 Finv<-function(p,t0=0,k=shape){ (t0^k-log(1-p))^(1/k)}
 
 # simulates the data
-# and performn NCC on the shifted process
+# and performs NCC on the shifted process
 simdat<-function(n,p,shape,tm=0.01){
   dat<-NULL
   n_noninf_evs <- 0
@@ -27,7 +27,7 @@ simdat<-function(n,p,shape,tm=0.01){
   colnames(dat)<-c("y","x", "offset","weight", "event_pair_index")
   dat<-as.data.frame(dat)
   
-  
+  #shifts
   shifts<-rexp(p^2,1/(mf*mean(exp(dat[dat$y==1,]$x))))
   exits<-shifts + max(exp(dat[dat$y==1,]$x))
   
@@ -116,11 +116,6 @@ for (j in 1:length(n)){
 
 save(list=ls(), file="res_shape_final_0.1.rda")
 
-bp<-function(y,x,...){
-  y.vec<-c(y)
-  x.vec<-rep(x,each=nrow(y))
-  boxplot(y.vec~x.vec,...)
-}
 
 # PLOTS: LOG-SCALE
 
