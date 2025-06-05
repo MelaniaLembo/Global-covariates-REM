@@ -3,7 +3,7 @@ options(warn=1)
 
 
 # number of nodes
-sample_sizes<-c(5,15,45)
+sample_sizes<-c(5,15,45,100)
 
 n_sim<-100
 
