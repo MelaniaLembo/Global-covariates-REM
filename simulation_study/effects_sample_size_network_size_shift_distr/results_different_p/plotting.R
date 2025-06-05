@@ -10,7 +10,7 @@ load(file = "../beta_gc.RData")
 dir.create("final_plots")
 
 # number of nodes
-sample_sizes<-c(5,15,45)
+sample_sizes<-c(5,15,45,100)
 
 n_sim<-100
 
@@ -70,7 +70,7 @@ for(p in sample_sizes){
 
 # comparing actor-level exogenous var across different p
 
-beta_xs_s<-matrix(NA,n_sim,3)
+beta_xs_s<-matrix(NA,n_sim,4)
 for(p in sample_sizes){
   cat("######## p = ", p, " ########", "\n")
   
@@ -81,7 +81,7 @@ for(p in sample_sizes){
     beta_xs_s[i,which(sample_sizes==p)]<-m$coefficients[1]
   }
   beta_xs_s<-as.data.frame(beta_xs_s)
-  colnames(beta_xs_s)<-c("p_5", "p_15","p_45")
+  colnames(beta_xs_s)<-c("p_5", "p_15","p_45","p_100")
 }
   # 
   pdf("final_plots/different_p_node_ex.pdf", height = 8, width = 12)
@@ -96,7 +96,7 @@ for(p in sample_sizes){
   
   # comparing dyadic exogenous var across different p 
   
-  beta_xs_sr<-matrix(NA,n_sim,3)
+  beta_xs_sr<-matrix(NA,n_sim,4)
   for(p in sample_sizes){
     cat("######## p = ", p, " ########", "\n")
     
@@ -107,7 +107,7 @@ for(p in sample_sizes){
       beta_xs_sr[i,which(sample_sizes==p)]<-m$coefficients[2]
     }
     beta_xs_sr<-as.data.frame(beta_xs_sr)
-    colnames(beta_xs_sr)<-c("p_5", "p_15","p_45")
+    colnames(beta_xs_sr)<-c("p_5", "p_15","p_45","p_100")
   }
   
   pdf("final_plots/different_p_dy_ex.pdf", height = 8, width = 12)
@@ -123,7 +123,7 @@ for(p in sample_sizes){
   
   # comparing global var across different p
   
-  beta_xs_gc<-matrix(NA,n_sim,3)
+  beta_xs_gc<-matrix(NA,n_sim,4)
   for(p in sample_sizes){
     cat("######## p = ", p, " ########", "\n")
     
@@ -134,7 +134,7 @@ for(p in sample_sizes){
       beta_xs_gc[i,which(sample_sizes==p)]<-m$coefficients[3]
     }
     beta_xs_gc<-as.data.frame(beta_xs_gc)
-    colnames(beta_xs_gc)<-c("p_5", "p_15","p_45")
+    colnames(beta_xs_gc)<-c("p_5", "p_15","p_45","p_100")
   }
   
   pdf("final_plots/different_p_gc.pdf", height = 8, width = 12)
@@ -148,7 +148,7 @@ for(p in sample_sizes){
   
   # comparing endogenous var across different p
   
-  beta_xs_end<-matrix(NA,n_sim,3)
+  beta_xs_end<-matrix(NA,n_sim,4)
   for(p in sample_sizes){
     cat("######## p = ", p, " ########", "\n")
     
@@ -159,7 +159,7 @@ for(p in sample_sizes){
       beta_xs_end[i,which(sample_sizes==p)]<-m$coefficients[4]
     }
     beta_xs_end<-as.data.frame(beta_xs_end)
-    colnames(beta_xs_end)<-c("p_5", "p_15","p_45")
+    colnames(beta_xs_end)<-c("p_5", "p_15","p_45","p_100")
     
   }
   # 
