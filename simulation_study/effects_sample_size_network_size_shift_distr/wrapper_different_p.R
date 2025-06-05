@@ -59,7 +59,7 @@ save(beta_x_end,file = "beta_x_end.RData")
 n_sim <-100
 
 # number of nodes
-sample_sizes<-c(5,15,45)
+sample_sizes<-c(5,15,45,100)
 
 for(p in sample_sizes){
   cat("######## p = ", p, " ########", "\n")
