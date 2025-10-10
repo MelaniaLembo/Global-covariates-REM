@@ -10,11 +10,14 @@ new_subfolder<-"results_nosl60"
 dir.create(new_subfolder)
 
 seeds<-c(31)
+# seeds <- c(17)
+# seeds <- c(12)
+
 for(i in seeds){
 
   cat("seed", i, "\n")
-  
-  load(file = paste("../events_ncc_gam_ncc_resbh/datasets_nosl60/events_",i,".RData", sep =""))
+
+  load(file = paste("../events_ncc_gam_ncc_resbh/datasets_nosl60/events_",i,".RData", sep ="")) 
   load(file = paste("../events_ncc_gam_ncc_resbh/datasets_nosl60/nonevents_",i,".RData", sep = ""))
   load(file = paste("../events_ncc_gam_ncc_resbh/datasets_nosl60/nonevents_resbh_",i,".RData", sep = ""))
 
@@ -73,4 +76,5 @@ for(i in seeds){
   print(summary(c_est))
   # move to plotting.R script for plots of estimates smooth terms
    
+
 }
