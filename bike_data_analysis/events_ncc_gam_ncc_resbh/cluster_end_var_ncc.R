@@ -35,9 +35,14 @@ merged_data$tod <- hour(time_in_date_format)+
 merged_data$dow <- wday(time_in_date_format)
 
 merged_data$shift<-info$shift[merged_data$info_ind]
+merged_data$shift_small<-info$shift_small[merged_data$info_ind]
+merged_data$shift_big<-info$shift_big[merged_data$info_ind]
 
 # shifted event time
 merged_data$abs_te <- merged_data$DateTime + merged_data$shift
+merged_data$abs_te_small <- merged_data$DateTime + merged_data$shift_small
+merged_data$abs_te_big <- merged_data$DateTime + merged_data$shift_big
+
 save(merged_data,file = "../data_pre_processing/initial_data/merged_data_new_nosl60.RData")
 
 
@@ -58,6 +63,8 @@ print("-------------------------------------------------------------------------
 
 
 seeds<-c(31)
+# seeds <- c(17)
+# seeds <- c(12)
 
 for (i in seeds) {
   set.seed(i)
@@ -94,6 +101,7 @@ for (i in seeds) {
   save(nonevents_new,file = paste("./datasets_nosl60/nonevents_resbh_",i,".RData", sep =""))
 
 }
+
 
 
 
