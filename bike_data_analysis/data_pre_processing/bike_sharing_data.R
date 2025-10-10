@@ -507,11 +507,26 @@ anyNA(info)
 #------------------- constructing shifted process --------------------
 
 set.seed(26)
+# set.seed(36)
+# set.seed(12)
+                           
 # shift: one per possible interaction
 info$shift<- rexp(nrow(info),1/(mean(merged_data$DateTime)))
-
 # exit
 info$exit<- max(merged_data$DateTime) + info$shift
+
+### to check different shift magnitude
+# shift small
+info$shift_small<- rexp(nrow(info),1/(0.1*mean(merged_data$DateTime)))
+# exit small
+info$exit_small<- max(merged_data$DateTime) + info$shift_small
+
+# shift big
+info$shift_big<- rexp(nrow(info),1/(10*mean(merged_data$DateTime)))
+# exit big
+info$exit_big<- max(merged_data$DateTime) + info$shift_big
+
+
 
 save(info, file = "./initial_data/info_nosl60.RData")
 
@@ -540,3 +555,4 @@ merged_data$time_since_same_pair<-as.numeric(rep(NA,nrow(merged_data)))
 merged_data$info_ind<-as.numeric(rep(NA,nrow(merged_data)))
 
 save(merged_data,file = "./initial_data/merged_data_incomplete_nosl60.RData")
+
