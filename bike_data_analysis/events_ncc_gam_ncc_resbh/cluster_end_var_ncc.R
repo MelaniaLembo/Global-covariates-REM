@@ -71,7 +71,7 @@ for (i in seeds) {
   
   #------------------------ NCC sampling on the shifted process ---------------------------
   
-  source(file = "ncc_sampling_parallel.R")
+  source(file = "ncc_sampling_parallel.R")  # source instead "ncc_sampling_parallel_small.R" for small shifts and "ncc_sampling_parallel_big.R" for big shifts
   
   if(anyNA(ncc_results)){
     print("Some events were dropped after NCC-sampling")
@@ -101,6 +101,7 @@ for (i in seeds) {
   save(nonevents_new,file = paste("./datasets_nosl60/nonevents_resbh_",i,".RData", sep =""))
 
 }
+
 
 
 
