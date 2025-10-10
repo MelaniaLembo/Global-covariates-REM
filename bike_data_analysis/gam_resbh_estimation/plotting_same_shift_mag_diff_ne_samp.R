@@ -7,7 +7,7 @@ seed_option <- c(31, 17, 12)
 shift_cond <- c("base")
 
 load(file = "../data_pre_processing/initial_data/starting_timepoint.RData")
-load(file = "../data_pre_processing/initial_data/merged_data_new_nosl60_updated.RData")
+load(file = "../data_pre_processing/initial_data/merged_data_new_nosl60.RData")
 load(file = "results_nosl60_new/median_deltat_recip_events.RData")
 load(file = "results_nosl60_new/median_deltat_repet_events.RData")
 
