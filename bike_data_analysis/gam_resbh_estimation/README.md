@@ -13,4 +13,7 @@ __DIRECTORY STRUCTURE__
 
 __DIRECTORY USAGE__
 
-Run "cluster_gam_fit_resbh.R" to fit the GAM model and estimate the effects (execution time is approx. 50 mins). Execute "plotting.R" to get the plots.
+Run "cluster_gam_fit_resbh.R" to fit the GAM model and estimate the effects (execution time is approx. 50 mins). Execute "plotting.R" to get the plots. 
+Variations to this alowign for the analysis without global coavariates or the robustenss check to non-event sampling and shifts magnitudes are possible: 
+- analysis without global coavariates: in "cluster_gam_fit_resbh.R" replace "gam_only.R" with "gam_only_noglobal.R". Execute "plotting_noglobal.R" to get the plots.
+- robustness checks to non-event sampling and shifts magnitudes: run "cluster_gam_fit_resbh.R" on the relevant event/non-events datasets obtained from the correspoinding seeds/shift magnitudes. Execute "plotting_same_shift_mag_diff_ne_samp.R" and/or "plotting_diff_shift_mag.R" to obtain the plots.
