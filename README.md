@@ -1,4 +1,4 @@
-# Relational event models with global covariates
+# Relational event models with global covariates: an application to bike sharing
 
 This repository contains the code used for the simulation study and empirical application of the paper 
 _Relational event models with global covariates_. It also contains code for anything included in the Supplementary Materials of this paper.
